@@ -1,0 +1,26 @@
+{
+  "name": "musicpracticeapp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && node server.mjs",
+    "build": "tsc -b && node scripts/build.mjs",
+    "preview": "node server.mjs",
+    "test": "tsc -b --pretty false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Cadenza — a focused practice operating system for musicians",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.6"
+  }
+}
